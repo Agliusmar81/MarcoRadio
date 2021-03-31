@@ -1,0 +1,44 @@
+body {
+	background: azure;
+}
+
+.navbar {
+	background: radial-gradient( rgba(44, 26, 206, 0.801), rgba(68, 4, 83, 0.76));
+}
+
+.btn-primary {
+	background-color: linear-gradient( rgba(1, 5, 69, .5), rgba(61, 70, 224, .5));
+	border: salmon;
+}
+
+.btn-primary:hover {
+	background-color: salmon;
+	border: salmon;
+}
+
+.jumbotron {
+	padding: 176px 0 120;
+	background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/classifica.jpg') no-repeat center / cover;
+	color: #fff;
+}
+
+.speakers {
+	padding: 60px 0;
+}
+
+.speakers .card {
+	margin-bottom: 20px;
+}
+
+.speakers .card-body {
+	height: 200px;
+}
+ 
+img {
+	height: 160px;
+}
+
+.align-items-center {
+	margin-left: 10px;
+	margin-right: 10px;
+}
